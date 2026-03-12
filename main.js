@@ -87,3 +87,22 @@ persons.age = 50;
 persons.city = "Volgograd";
 console.log(persons);
 // person = { name: "Stas" };
+
+
+
+console.log(typeof "тект");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+
+let numberX = null;
+console.log(numberX === null);
+
+let newPrice = 50;
+console.log("Значение:", newPrice, "Тип:", typeof newPrice);
+newPrice = "пятьдесят рублей";
+console.log("Значение:", newPrice, "Тип:", typeof newPrice);
